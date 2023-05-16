@@ -23,9 +23,32 @@ public class PlaySound : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.C))
         {
             audioSource.PlayOneShot(C);
-            Debug.Log("Cが押されたよ");
         }
-        
+
+        if(Input.GetKeyDown(KeyCode.D))
+        {
+            audioSource.PlayOneShot(D);
+        }
+        if(Input.GetKeyDown(KeyCode.E))
+        {
+            audioSource.PlayOneShot(E);
+        }
+        if(Input.GetKeyDown(KeyCode.F))
+        {
+            audioSource.PlayOneShot(F);
+        }
+        if(Input.GetKeyDown(KeyCode.G))
+        {
+            audioSource.PlayOneShot(G);
+        }
+        if(Input.GetKeyDown(KeyCode.A))
+        {
+            audioSource.PlayOneShot(A);
+        }
+        if(Input.GetKeyDown(KeyCode.B))
+        {
+            audioSource.PlayOneShot(B);
+        }
     }
 }
 
