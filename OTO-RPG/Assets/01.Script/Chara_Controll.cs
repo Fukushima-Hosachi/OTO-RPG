@@ -5,6 +5,8 @@ using UnityEngine;
 public class Chara_Controll : MonoBehaviour
 {
     public int HP;
+    public int MaxDamage;
+    public int minDamage;
     public int Damage;
 
     // Start is called before the first frame update
@@ -22,8 +24,10 @@ public class Chara_Controll : MonoBehaviour
     public void Onclick()
     {
         //ボタンが押されたらキャラクターのHPが減る
+        int Damage = (Random.Range(MaxDamage,minDamage));
+
         HP = HP - Damage;
-        Debug.Log( HP );
+        Debug.Log( "ダメージは" + Damage + "残りHPは" + HP );
 
         if ( HP <= 0 )
         {
