@@ -689,6 +689,7 @@ GameObject:
   - component: {fileID: 250472252}
   - component: {fileID: 250472251}
   - component: {fileID: 250472250}
+  - component: {fileID: 250472253}
   m_Layer: 5
   m_Name: Button_E
   m_TagString: E
@@ -761,9 +762,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1976768612}
+      - m_Target: {fileID: 250472253}
         m_TargetAssemblyTypeName: Chord_Gage_Controll, Assembly-CSharp
-        m_MethodName: Onclick_C
+        m_MethodName: Onclick_E
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -811,6 +812,29 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 250472248}
   m_CullTransparentMesh: 1
+--- !u!114 &250472253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250472248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82288fa7368eaea4f9a20e180393051c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 0}
+  button02: {fileID: 0}
+  image: {fileID: 0}
+  image02: {fileID: 0}
+  C: {fileID: 0}
+  E: {fileID: 0}
+  G: {fileID: 0}
+  audioSource: {fileID: 0}
+  btnC: {fileID: 0}
+  btnE: {fileID: 0}
+  btnG: {fileID: 0}
 --- !u!1 &262356940
 GameObject:
   m_ObjectHideFlags: 0
@@ -1224,6 +1248,7 @@ GameObject:
   - component: {fileID: 601567654}
   - component: {fileID: 601567653}
   - component: {fileID: 601567652}
+  - component: {fileID: 601567655}
   m_Layer: 5
   m_Name: Button_G
   m_TagString: G
@@ -1296,7 +1321,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1976768612}
+      - m_Target: {fileID: 601567655}
         m_TargetAssemblyTypeName: Chord_Gage_Controll, Assembly-CSharp
         m_MethodName: Onclick_G
         m_Mode: 1
@@ -1346,6 +1371,29 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 601567650}
   m_CullTransparentMesh: 1
+--- !u!114 &601567655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 601567650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82288fa7368eaea4f9a20e180393051c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 0}
+  button02: {fileID: 0}
+  image: {fileID: 0}
+  image02: {fileID: 0}
+  C: {fileID: 0}
+  E: {fileID: 0}
+  G: {fileID: 0}
+  audioSource: {fileID: 0}
+  btnC: {fileID: 0}
+  btnE: {fileID: 0}
+  btnG: {fileID: 0}
 --- !u!1 &656038399
 GameObject:
   m_ObjectHideFlags: 0
@@ -2701,6 +2749,7 @@ GameObject:
   - component: {fileID: 1942097182}
   - component: {fileID: 1942097181}
   - component: {fileID: 1942097180}
+  - component: {fileID: 1942097183}
   m_Layer: 5
   m_Name: Button_C
   m_TagString: C
@@ -2773,7 +2822,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1976768612}
+      - m_Target: {fileID: 1942097183}
         m_TargetAssemblyTypeName: Chord_Gage_Controll, Assembly-CSharp
         m_MethodName: Onclick_C
         m_Mode: 1
@@ -2782,7 +2831,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: C
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1942097181
@@ -2823,6 +2872,29 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1942097178}
   m_CullTransparentMesh: 1
+--- !u!114 &1942097183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1942097178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82288fa7368eaea4f9a20e180393051c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 0}
+  button02: {fileID: 0}
+  image: {fileID: 0}
+  image02: {fileID: 0}
+  C: {fileID: 0}
+  E: {fileID: 0}
+  G: {fileID: 0}
+  audioSource: {fileID: 0}
+  btnC: {fileID: 0}
+  btnE: {fileID: 0}
+  btnG: {fileID: 0}
 --- !u!1 &1976768610
 GameObject:
   m_ObjectHideFlags: 0
@@ -2876,9 +2948,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82288fa7368eaea4f9a20e180393051c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: 0}
-  image: {fileID: 0}
-  audioClip: {fileID: 8300000, guid: a4d6b1c9ca49b494d8b1f425b3f0a456, type: 3}
+  button: {fileID: 1942097180}
+  button02: {fileID: 250472250}
+  image: {fileID: 1942097181}
+  image02: {fileID: 250472251}
+  C: {fileID: 8300000, guid: a4d6b1c9ca49b494d8b1f425b3f0a456, type: 3}
+  E: {fileID: 8300000, guid: d96b0cf73a9cec1498f615defcb22f88, type: 3}
+  G: {fileID: 8300000, guid: 0c707be291c7b024685620127bcdecc3, type: 3}
+  audioSource: {fileID: 1976768613}
+  btnC: {fileID: 1942097180}
+  btnE: {fileID: 250472250}
+  btnG: {fileID: 601567652}
 --- !u!82 &1976768613
 AudioSource:
   m_ObjectHideFlags: 0
