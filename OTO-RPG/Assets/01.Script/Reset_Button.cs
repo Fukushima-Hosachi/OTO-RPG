@@ -3,28 +3,32 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class test : MonoBehaviour
+public class Reset_Button : MonoBehaviour
 {
-    [SerializeField] private Button btnC;
+    [SerializeField] private Button Base_Button, _ButtonA, _ButtonB, _ButtonC;
+    public bool Button_Active;
+    int argument;
+
+
     // Start is called before the first frame update
     void Start()
     {
-        btnC.onClick.Invoke();
-        Debug.Log("push C");
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-        
-    }
-
-    public void Onclick()
-    {
-        
-        
        
     }
+
+    public void onClick()
+    {
+        //Base_Buttonが押さされたら全ボタンが白になるようにする
+        _ButtonA.image.color = new Color( 255, 255, 255 ); 
+        _ButtonB.image.color = new Color( 255, 255, 255 ); 
+        _ButtonC.image.color = new Color( 255, 255, 255 ); 
+    }
+
+
 }

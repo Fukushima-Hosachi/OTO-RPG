@@ -27,7 +27,7 @@ public class Chord_check : MonoBehaviour
             Chord_num = 1;
         }
 
-        Debug.Log( Chord_num );
+        //Debug.Log( Chord_num );
 
         //1，3，5，の順番で押されたらCmaj
     }
