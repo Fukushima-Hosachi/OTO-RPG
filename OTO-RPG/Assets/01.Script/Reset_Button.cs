@@ -19,6 +19,7 @@ public class Reset_Button : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       //各ボタンの引数を設定してトータルの値が6になったら攻撃ボタンを押す
        
     }
 
