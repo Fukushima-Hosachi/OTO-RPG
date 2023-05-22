@@ -15,6 +15,8 @@ public class Chord_check : MonoBehaviour
     {
         Chord_num = 0;
         CM = false;
+
+        
     }
 
     // Update is called once per frame
