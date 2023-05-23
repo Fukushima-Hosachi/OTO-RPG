@@ -9,10 +9,10 @@ public class Chord_check : MonoBehaviour
     [SerializeField] Button ButtonC;
     [SerializeField] Button ButtonE;
     [SerializeField] Button ButtonG;
+    [SerializeField] Button Attack;
 
     [SerializeField] bool C, E, G;
-    //1,3,5ならCmajとか2,4,6ならDmとか
-    //Boolで管理する?
+    //Boolで管理する?←採択
     
 
     // Start is called before the first frame update
@@ -27,6 +27,16 @@ public class Chord_check : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //CEGが音であれば攻撃ボタンを押す
+       if(C == true && E == true && G == true)
+       {
+            Debug.Log("Cmaj");
+            Attack.onClick.Invoke();
+            C = false;
+            E = false;
+            G = false;
+       }
+
        
     }
 
@@ -35,19 +45,23 @@ public class Chord_check : MonoBehaviour
         if (chord == "C")
         {
             C = true;
-            Debug.Log("this is C");
         }
 
         if (chord == "E")
         {
             E = true;
-            Debug.Log("this is E");
         }
 
-        if(C == true && E == true)
+        if (chord == "G")
         {
-            Debug.Log("Cmaj");
+            G = true;
         }
+
+    }
+
+    public void Onclick()
+    {
+
     }
 
     //btnC.onClick.Invoke() → btnE.onClick.Invoke(); →　btnG.onClick.Invoke();の順で押されたら

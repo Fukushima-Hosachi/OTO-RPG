@@ -3427,6 +3427,10 @@ MonoBehaviour:
   ButtonC: {fileID: 1942097180}
   ButtonE: {fileID: 250472250}
   ButtonG: {fileID: 601567652}
+  Attack: {fileID: 798620985}
+  C: 0
+  E: 0
+  G: 0
 --- !u!1 &1991184615
 GameObject:
   m_ObjectHideFlags: 0
