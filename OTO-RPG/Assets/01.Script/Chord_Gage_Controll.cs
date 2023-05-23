@@ -11,6 +11,7 @@ public class Chord_Gage_Controll : MonoBehaviour
     public Image image; 
     public Image image02;
     public AudioClip C, E, G;
+    public AudioClip D, F, A, B;
     public AudioSource audioSource;
 
     [SerializeField] Button btnC;
@@ -38,9 +39,14 @@ public class Chord_Gage_Controll : MonoBehaviour
             
             btnC.onClick.Invoke();
             Debug.Log("tag C");
-            //Onclick_C();
             
             
+        }
+
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            audioSource.PlayOneShot(D);
+            //btnC.onClick.Invoke();
         }
 
         if (Input.GetKeyDown(KeyCode.E))
@@ -48,9 +54,14 @@ public class Chord_Gage_Controll : MonoBehaviour
             audioSource.PlayOneShot(E);
 
                btnE.onClick.Invoke(); 
-               Debug.Log("tag E");
-               //Onclick_E(); 
+               
               
+        }
+
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            audioSource.PlayOneShot(F);
+            //btnC.onClick.Invoke();
         }
 
         if (Input.GetKeyDown(KeyCode.G))
@@ -61,6 +72,18 @@ public class Chord_Gage_Controll : MonoBehaviour
                Debug.Log("tag G");
                //Onclick_E(); 
               
+        }
+
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            audioSource.PlayOneShot(A);
+            //btnC.onClick.Invoke();
+        }
+
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            audioSource.PlayOneShot(B);
+            //btnC.onClick.Invoke();
         }
     }
 

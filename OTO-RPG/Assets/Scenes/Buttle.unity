@@ -944,6 +944,10 @@ MonoBehaviour:
   C: {fileID: 0}
   E: {fileID: 0}
   G: {fileID: 0}
+  D: {fileID: 0}
+  F: {fileID: 0}
+  A: {fileID: 0}
+  B: {fileID: 0}
   audioSource: {fileID: 0}
   btnC: {fileID: 0}
   btnE: {fileID: 0}
@@ -1533,6 +1537,10 @@ MonoBehaviour:
   C: {fileID: 0}
   E: {fileID: 0}
   G: {fileID: 0}
+  D: {fileID: 0}
+  F: {fileID: 0}
+  A: {fileID: 0}
+  B: {fileID: 0}
   audioSource: {fileID: 0}
   btnC: {fileID: 0}
   btnE: {fileID: 0}
@@ -3249,6 +3257,10 @@ MonoBehaviour:
   C: {fileID: 0}
   E: {fileID: 0}
   G: {fileID: 0}
+  D: {fileID: 0}
+  F: {fileID: 0}
+  A: {fileID: 0}
+  B: {fileID: 0}
   audioSource: {fileID: 0}
   btnC: {fileID: 0}
   btnE: {fileID: 0}
@@ -3312,6 +3324,10 @@ MonoBehaviour:
   C: {fileID: 8300000, guid: a4d6b1c9ca49b494d8b1f425b3f0a456, type: 3}
   E: {fileID: 8300000, guid: d96b0cf73a9cec1498f615defcb22f88, type: 3}
   G: {fileID: 8300000, guid: 0c707be291c7b024685620127bcdecc3, type: 3}
+  D: {fileID: 8300000, guid: d0aadd10bfd421042a396f31e875fdf2, type: 3}
+  F: {fileID: 8300000, guid: d7191164cd3c92141b8647260a9b32f8, type: 3}
+  A: {fileID: 8300000, guid: 19a76630d0b6a0341b09fb21a2def7f4, type: 3}
+  B: {fileID: 8300000, guid: 432037f333099b04fa340142387c42f2, type: 3}
   audioSource: {fileID: 1976768613}
   btnC: {fileID: 1942097180}
   btnE: {fileID: 250472250}
