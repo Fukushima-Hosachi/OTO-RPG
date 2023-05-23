@@ -78,8 +78,7 @@ public class Chord_Gage_Controll : MonoBehaviour
         button02 = GetComponent<Button>();
         image = GetComponentInChildren<Image>();
         image.color = new Color( 0, 255, 0 ); 
-        Debug.Log("E");
-
+        
     }
 
     public void Onclick_G()
@@ -87,7 +86,7 @@ public class Chord_Gage_Controll : MonoBehaviour
         button02 = GetComponent<Button>();
         image = GetComponentInChildren<Image>();
         image.color = new Color( 0, 0, 255 ); 
-        Debug.Log("E");
+    
 
     }
        

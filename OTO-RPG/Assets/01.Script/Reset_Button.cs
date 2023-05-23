@@ -30,6 +30,7 @@ public class Reset_Button : MonoBehaviour
         _ButtonB.image.color = new Color( 255, 255, 255 ); 
         _ButtonC.image.color = new Color( 255, 255, 255 ); 
     }
-
+     
 
 }
+
