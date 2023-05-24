@@ -6,8 +6,7 @@ using UnityEngine.UI;
 public class Chord_Gage_Controll : MonoBehaviour
 {
     public Button button;	
-    public Button button02;
-    public Button button03;
+
    
     public Image image; 
     public Image image02;
@@ -59,8 +58,7 @@ public class Chord_Gage_Controll : MonoBehaviour
             audioSource.PlayOneShot(E);
 
                btnE.onClick.Invoke(); 
-               
-              
+           
         }
 
         if (Input.GetKeyDown(KeyCode.F))
@@ -104,7 +102,7 @@ public class Chord_Gage_Controll : MonoBehaviour
     public void Onclick_D()
     {
         
-        button03 = GetComponent<Button>();
+        button = GetComponent<Button>();
         image = GetComponentInChildren<Image>();
         image.color = new Color( 255, 0, 0 ); 
         Debug.Log("D");
@@ -114,7 +112,7 @@ public class Chord_Gage_Controll : MonoBehaviour
 
     public void Onclick_E()
     {
-        button02 = GetComponent<Button>();
+        button = GetComponent<Button>();
         image = GetComponentInChildren<Image>();
         image.color = new Color( 0, 255, 0 ); 
         
@@ -131,7 +129,7 @@ public class Chord_Gage_Controll : MonoBehaviour
 
     public void Onclick_G()
     {
-        button02 = GetComponent<Button>();
+        button = GetComponent<Button>();
         image = GetComponentInChildren<Image>();
         image.color = new Color( 0, 0, 255 ); 
     

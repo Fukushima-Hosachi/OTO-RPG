@@ -939,8 +939,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 0}
-  button02: {fileID: 0}
-  button03: {fileID: 0}
   image: {fileID: 0}
   image02: {fileID: 0}
   C: {fileID: 0}
@@ -1382,8 +1380,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 0}
-  button02: {fileID: 0}
-  button03: {fileID: 0}
   image: {fileID: 0}
   image02: {fileID: 0}
   C: {fileID: 0}
@@ -1696,8 +1692,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 0}
-  button02: {fileID: 0}
-  button03: {fileID: 0}
   image: {fileID: 0}
   image02: {fileID: 0}
   C: {fileID: 0}
@@ -2030,8 +2024,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 0}
-  button02: {fileID: 0}
-  button03: {fileID: 0}
   image: {fileID: 0}
   image02: {fileID: 0}
   C: {fileID: 0}
@@ -4125,14 +4117,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1942097178}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 82288fa7368eaea4f9a20e180393051c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 0}
-  button02: {fileID: 0}
-  button03: {fileID: 0}
   image: {fileID: 0}
   image02: {fileID: 0}
   C: {fileID: 0}
@@ -4204,8 +4194,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 0}
-  button02: {fileID: 0}
-  button03: {fileID: 0}
   image: {fileID: 0}
   image02: {fileID: 0}
   C: {fileID: 0}
@@ -4382,8 +4370,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 0}
-  button02: {fileID: 0}
-  button03: {fileID: 0}
   image: {fileID: 1942097181}
   image02: {fileID: 250472251}
   C: {fileID: 8300000, guid: a4d6b1c9ca49b494d8b1f425b3f0a456, type: 3}
