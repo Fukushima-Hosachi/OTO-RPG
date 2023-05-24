@@ -96,6 +96,15 @@ public class Chord_Gage_Controll : MonoBehaviour
 
     }
     
+    public void Onclick_D()
+    {
+        
+        button = GetComponent<Button>();
+        image = GetComponentInChildren<Image>();
+        image.color = new Color( 255, 0, 0 ); 
+
+    }
+    
     public void Onclick_E()
     {
         button02 = GetComponent<Button>();
@@ -104,12 +113,30 @@ public class Chord_Gage_Controll : MonoBehaviour
         
     }
 
+    public void Onclick_F()
+    {
+        
+        button = GetComponent<Button>();
+        image = GetComponentInChildren<Image>();
+        image.color = new Color( 255, 0, 0 ); 
+
+    }
+
     public void Onclick_G()
     {
         button02 = GetComponent<Button>();
         image = GetComponentInChildren<Image>();
         image.color = new Color( 0, 0, 255 ); 
     
+
+    }
+
+    public void Onclick_A()
+    {
+        
+        button = GetComponent<Button>();
+        image = GetComponentInChildren<Image>();
+        image.color = new Color( 255, 0, 0 ); 
 
     }
        
