@@ -28,7 +28,7 @@ public class Reset_Button : MonoBehaviour
     public void onClick()
     {
         //ボタンが押されてから2秒後にボタンの色を白に変更
-        Invoke ( "color_change", 2f );
+        Invoke ( "color_change", 1f );
 
     }
 

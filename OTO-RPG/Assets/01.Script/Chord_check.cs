@@ -12,6 +12,7 @@ public class Chord_check : MonoBehaviour
     [SerializeField] Button Attack;
 
     [SerializeField] bool C, E, G;
+    [SerializeField] bool D, F, A, B;
     //Boolで管理する?←採択
     
 
@@ -19,8 +20,12 @@ public class Chord_check : MonoBehaviour
     void Start()
     {
        C = false;
+       D = false;
        E = false;
+       F = false;
        G = false;
+       A = false;
+       B = false;
  
     }
 
@@ -39,6 +44,18 @@ public class Chord_check : MonoBehaviour
             G = false;
        }
 
+       if ( D == true && F == true && A == true)
+       {
+
+            Debug.Log("Dm");
+
+            Attack.onClick.Invoke();
+            D = false;
+            F = false;
+            A = false;
+
+       }
+
     }
 
 
@@ -49,14 +66,34 @@ public class Chord_check : MonoBehaviour
             C = true;
         }
 
+        if (chord == "D")
+        {
+            D = true;
+        }
+
         if (chord == "E")
         {
             E = true;
         }
 
+        if (chord == "F")
+        {
+            F = true;
+        }
+
         if (chord == "G")
         {
             G = true;
+        }
+
+        if (chord == "A")
+        {
+            A = true;
+        }
+
+        if (chord == "B")
+        {
+            B = true;
         }
 
     }
