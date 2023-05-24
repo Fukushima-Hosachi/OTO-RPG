@@ -21,7 +21,7 @@ public class Chord_check : MonoBehaviour
        C = false;
        E = false;
        G = false;
-        
+ 
     }
 
     // Update is called once per frame
@@ -31,14 +31,16 @@ public class Chord_check : MonoBehaviour
        if(C == true && E == true && G == true)
        {
             Debug.Log("Cmaj");
+                 
+            
             Attack.onClick.Invoke();
             C = false;
             E = false;
             G = false;
        }
 
-       
     }
+
 
     public void Chord(string chord)
     {
