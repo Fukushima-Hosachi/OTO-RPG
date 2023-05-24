@@ -7,6 +7,7 @@ public class Chord_Gage_Controll : MonoBehaviour
 {
     public Button button;	
     public Button button02;
+    public Button button03;
    
     public Image image; 
     public Image image02;
@@ -15,9 +16,12 @@ public class Chord_Gage_Controll : MonoBehaviour
     public AudioSource audioSource;
 
     [SerializeField] Button btnC;
+    [SerializeField] Button btnD;
     [SerializeField] Button btnE;
+    [SerializeField] Button btnF;
     [SerializeField] Button btnG;
-
+    [SerializeField] Button btnA;
+    [SerializeField] Button btnB;
     
     
     // Start is called before the first frame update
@@ -46,7 +50,8 @@ public class Chord_Gage_Controll : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.D))
         {
             audioSource.PlayOneShot(D);
-            //btnC.onClick.Invoke();
+            Debug.Log("D");
+            btnD.onClick.Invoke();
         }
 
         if (Input.GetKeyDown(KeyCode.E))
@@ -61,7 +66,7 @@ public class Chord_Gage_Controll : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F))
         {
             audioSource.PlayOneShot(F);
-            //btnC.onClick.Invoke();
+            btnF.onClick.Invoke();
         }
 
         if (Input.GetKeyDown(KeyCode.G))
@@ -77,13 +82,13 @@ public class Chord_Gage_Controll : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.A))
         {
             audioSource.PlayOneShot(A);
-            //btnC.onClick.Invoke();
+            btnA.onClick.Invoke();
         }
 
         if (Input.GetKeyDown(KeyCode.B))
         {
             audioSource.PlayOneShot(B);
-            //btnC.onClick.Invoke();
+            btnB.onClick.Invoke();
         }
     }
 
@@ -95,16 +100,18 @@ public class Chord_Gage_Controll : MonoBehaviour
         image.color = new Color( 255, 0, 0 ); 
 
     }
-    
+
     public void Onclick_D()
     {
         
-        button = GetComponent<Button>();
+        button03 = GetComponent<Button>();
         image = GetComponentInChildren<Image>();
         image.color = new Color( 255, 0, 0 ); 
+        Debug.Log("D");
 
     }
     
+
     public void Onclick_E()
     {
         button02 = GetComponent<Button>();
@@ -133,12 +140,20 @@ public class Chord_Gage_Controll : MonoBehaviour
 
     public void Onclick_A()
     {
-        
         button = GetComponent<Button>();
         image = GetComponentInChildren<Image>();
-        image.color = new Color( 255, 0, 0 ); 
-
+        image.color = new Color( 0, 0, 255 ); 
+    
     }
+
+    public void Onclick_B()
+    {
+        button = GetComponent<Button>();
+        image = GetComponentInChildren<Image>();
+        image.color = new Color( 0, 0, 255 ); 
+    
+    }
+
        
 }
 
