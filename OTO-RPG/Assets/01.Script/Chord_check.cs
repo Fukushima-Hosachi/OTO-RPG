@@ -56,6 +56,18 @@ public class Chord_check : MonoBehaviour
 
        }
 
+       if ( E == true && G == true && B == true)
+       {
+
+            Debug.Log("Em");
+
+            Attack.onClick.Invoke();
+            E = false;
+            G = false;
+            B = false;
+
+       }
+
     }
 
 

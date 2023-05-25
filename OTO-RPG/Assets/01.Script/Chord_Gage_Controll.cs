@@ -9,7 +9,7 @@ public class Chord_Gage_Controll : MonoBehaviour
 
    
     public Image image; 
-    public Image image02;
+   // public Image image02;
     public AudioClip C, E, G;
     public AudioClip D, F, A, B;
     public AudioSource audioSource;
@@ -21,7 +21,7 @@ public class Chord_Gage_Controll : MonoBehaviour
     [SerializeField] Button btnG;
     [SerializeField] Button btnA;
     [SerializeField] Button btnB;
-    
+        
     
     // Start is called before the first frame update
     void Start()
@@ -57,7 +57,7 @@ public class Chord_Gage_Controll : MonoBehaviour
         {
             audioSource.PlayOneShot(E);
 
-               btnE.onClick.Invoke(); 
+            btnE.onClick.Invoke(); 
            
         }
 
