@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Reset_Button : MonoBehaviour
 {
-    [SerializeField] private Button Base_Button, _ButtonA, _ButtonB, _ButtonC;
+    [SerializeField] private Button Base_Button, _ButtonA, _ButtonB, _ButtonC,_ButtonD,_ButtonE,_ButtonF,_ButtonG;
     public bool Button_Active;
     int argument;
 
@@ -38,6 +38,10 @@ public class Reset_Button : MonoBehaviour
         _ButtonA.image.color = new Color( 255, 255, 255 ); 
         _ButtonB.image.color = new Color( 255, 255, 255 ); 
         _ButtonC.image.color = new Color( 255, 255, 255 ); 
+        _ButtonD.image.color = new Color( 255, 255, 255 ); 
+        _ButtonE.image.color = new Color( 255, 255, 255 ); 
+        _ButtonF.image.color = new Color( 255, 255, 255 ); 
+        _ButtonG.image.color = new Color( 255, 255, 255 ); 
     }
      
 
