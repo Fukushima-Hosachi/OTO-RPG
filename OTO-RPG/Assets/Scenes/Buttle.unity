@@ -879,7 +879,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1ec9bcde2b4b1154f995a2f3f661f7e6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6c6081d9f1ae1b1449487171f77c0df3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2901,7 +2901,7 @@ GameObject:
   - component: {fileID: 892747848}
   - component: {fileID: 892747847}
   m_Layer: 5
-  m_Name: Button_F
+  m_Name: Button_G
   m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3004,7 +3004,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 892747847}
         m_TargetAssemblyTypeName: Chord_Gage_Controll, Assembly-CSharp
-        m_MethodName: Onclick_F
+        m_MethodName: Onclick_G
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3023,7 +3023,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: F
+          m_StringArgument: G
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &892747849
@@ -3046,7 +3046,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 493dba5ec16f02148b436b5162687e07, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 81db298ab4b6b5242a447f83591a113b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3500,7 +3500,7 @@ GameObject:
   - component: {fileID: 1081586059}
   - component: {fileID: 1081586058}
   m_Layer: 5
-  m_Name: Button_D
+  m_Name: Button_E
   m_TagString: C
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3603,7 +3603,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1081586058}
         m_TargetAssemblyTypeName: Chord_Gage_Controll, Assembly-CSharp
-        m_MethodName: Onclick_D
+        m_MethodName: Onclick_E
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3622,7 +3622,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: D
+          m_StringArgument: E
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1081586060
@@ -3645,7 +3645,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6b2304a551dd93244ad3305e432dd542, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4fa7887d8a092bc468097820b183373a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5139,7 +5139,7 @@ GameObject:
   - component: {fileID: 1826579912}
   - component: {fileID: 1826579911}
   m_Layer: 5
-  m_Name: Button_A
+  m_Name: Button_B
   m_TagString: G
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5242,7 +5242,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1826579911}
         m_TargetAssemblyTypeName: Chord_Gage_Controll, Assembly-CSharp
-        m_MethodName: Onclick_A
+        m_MethodName: Onclick_B
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5261,7 +5261,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: A
+          m_StringArgument: B
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1826579913
@@ -5284,7 +5284,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e066b1e779d4ff540b412b899582e45e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 623910139b1478c48bc1dfeb579afa19, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
