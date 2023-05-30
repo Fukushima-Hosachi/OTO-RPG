@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Attack_Animation : MonoBehaviour
 {
-    [SerializeField] private Button  Attack_Button;
+    [SerializeField]  Button  Attack_Button;
     
     //public Animation AtackText;
     // Start is called before the first frame update
@@ -17,12 +17,12 @@ public class Attack_Animation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Attack_Button.onClick.Invoke();
-        onClick();
+        
+        
         
     }
 
-    public void onClick()
+    public void onClick_Animation()
     {
         //ボタンが押されてから2秒後にボタンの色を白に変更
         GetComponent<Animator>().SetTrigger("Attack");
