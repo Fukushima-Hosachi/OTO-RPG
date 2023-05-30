@@ -31,6 +31,7 @@ public class Chara_Controll : MonoBehaviour
 
     public void Onclick()
     {
+        
         //ボタンが押されたらキャラクターのHPが減る
         int Damage = (Random.Range(MaxDamage,minDamage));
 
@@ -43,6 +44,8 @@ public class Chara_Controll : MonoBehaviour
         {
             Destroy (this.gameObject);
         }
+
+        
         
     }
     

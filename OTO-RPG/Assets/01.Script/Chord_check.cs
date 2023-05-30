@@ -14,7 +14,7 @@ public class Chord_check : MonoBehaviour
     [SerializeField] bool C, E, G;
     [SerializeField] bool D, F, A, B;
     //Boolで管理する?←採択
-    
+    [SerializeField] Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -39,6 +39,7 @@ public class Chord_check : MonoBehaviour
                  
             
             Attack.onClick.Invoke();
+        
             C = false;
             E = false;
             G = false;
