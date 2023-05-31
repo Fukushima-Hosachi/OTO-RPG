@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Chara_Controll : MonoBehaviour
 {
@@ -43,6 +44,7 @@ public class Chara_Controll : MonoBehaviour
         if ( HP <= 0 )
         {
             Destroy (this.gameObject);
+            SceneManager.LoadScene("SubScene");
         }
 
         
