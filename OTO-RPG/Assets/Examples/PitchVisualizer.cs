@@ -62,31 +62,38 @@ public class PitchVisualizer : MonoBehaviour
             //textFrequency.textそのものでした
             textFrequency.text = string.Format("{0}\n{1:0.0} Hz", GetNameFromFrequency(frequency), frequency);
 
-            Debug.Log( textFrequency.text );
-
-            if (textFrequency.text == "A")
-            {
-                Debug.Log("Aやで");
-            }
+            //Debug.Log( textFrequency.text );
+            
         }
 
         // 下限・上限周波数
         textMin.text = string.Format("{0} Hz", estimator.frequencyMin);
         textMax.text = string.Format("{0} Hz", estimator.frequencyMax);
 
-        
-
     }
 
     // 周波数 → 音名
     string GetNameFromFrequency(float frequency)
     {
+        //440Hzからの差を対数で計算して12をかけて音程番号(MIDI番号)を求める
         var noteNumber = Mathf.RoundToInt(12 * Mathf.Log(frequency / 440) / Mathf.Log(2) + 69);
+
+        //noteNumberのあまりが0ならC、1ならC＃  以下略
         string[] names = {
             "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"
         };
-        return names[noteNumber % 12];
 
+        var noteName = names [noteNumber % 12];
+
+        
+        //キーが○だったらというコード
+        if ( noteName == "A")
+        {
+            Debug.Log( " this is A " );
+        }
+
+
+        return names[noteNumber % 12];
         
     }
 
