@@ -15,7 +15,7 @@ public class PitchVisualizer : MonoBehaviour
 
     public float estimateRate = 30;
 
-    private string noteName;
+    public string noteName;
 
     void Start()
     {

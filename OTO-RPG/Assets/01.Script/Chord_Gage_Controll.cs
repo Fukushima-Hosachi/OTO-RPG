@@ -21,11 +21,13 @@ public class Chord_Gage_Controll : MonoBehaviour
     [SerializeField] Button btnG;
     [SerializeField] Button btnA;
     [SerializeField] Button btnB;
-        
-    
+
+  
     // Start is called before the first frame update
     void Start()
     {
+        
+
         GetComponent<AudioSource>();
         //button = GetComponentInChildren<Button>();
         //image = GetComponentInChildren<Image>();
@@ -35,6 +37,7 @@ public class Chord_Gage_Controll : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (Input.GetKeyDown(KeyCode.C))
         {
             audioSource.PlayOneShot(C);
