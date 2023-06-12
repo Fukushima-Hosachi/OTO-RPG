@@ -15,6 +15,8 @@ public class PitchVisualizer : MonoBehaviour
 
     public float estimateRate = 30;
 
+    private string noteName;
+
     void Start()
     {
         // 一定間隔で呼び出す（Updateだと速すぎる）
@@ -64,6 +66,8 @@ public class PitchVisualizer : MonoBehaviour
 
             //Debug.Log( textFrequency.text );
             
+            Debug.Log( "noteName is " + noteName );
+                                    
         }
 
         // 下限・上限周波数
@@ -83,18 +87,22 @@ public class PitchVisualizer : MonoBehaviour
             "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"
         };
 
-        var noteName = names [noteNumber % 12];
+
+
+        noteName = names [noteNumber % 12];
 
         
         //キーが○だったらというコード
-        if ( noteName == "A")
-        {
-            Debug.Log( " this is A " );
-        }
+        //if ( noteName == "A")
+        //{
+           // Debug.Log( " this is A " );
+       // }
+
+        //Debug.Log( noteName );
 
 
-        return names[noteNumber % 12];
-        
+        //return names[noteNumber % 12];
+        return noteName;
     }
 
 }
