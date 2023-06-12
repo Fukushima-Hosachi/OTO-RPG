@@ -34,6 +34,8 @@ RPGです。そこんとこ間違えないように
 あとお前が作ってるゲーム2Dやからコライダーは2Dな  
 メインフォント：VDL ロゴJr R  
 記念すべき最初の音はJD800のあの音やろ  
+参考
+https://github.com/nakakq/AudioPitchEstimatorForUnity
 
 ### 参考文献  
 ・下にあるスプライトを手前に表示する方法  
