@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+//参考(https://qiita.com/ELIXIR/items/595579a9372ef181e0bc)
 
 public class FFT_Analyze : MonoBehaviour {
     private readonly int SampleNum = (2 << 9); // サンプリング数は2のN乗(N=5-12)
@@ -47,6 +48,8 @@ public class FFT_Analyze : MonoBehaviour {
         }
         m_lineRenderer.positionCount = levelCount;
         m_lineRenderer.SetPositions(positions);
+
+        
     }
 
 }
