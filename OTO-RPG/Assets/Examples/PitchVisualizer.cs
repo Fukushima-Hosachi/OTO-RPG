@@ -56,12 +56,26 @@ public class PitchVisualizer : MonoBehaviour
             lineFrequency.SetPosition(1, new Vector3(position, -1, 0));
 
             marker.position = new Vector3(position, 0, 0);
+
+            //ここのどれかがキーをさしてると思うんだよね
+            //たぶん{0}\のとこだと思う
+            //textFrequency.textそのものでした
             textFrequency.text = string.Format("{0}\n{1:0.0} Hz", GetNameFromFrequency(frequency), frequency);
+
+            Debug.Log( textFrequency.text );
+
+            if (textFrequency.text == "A")
+            {
+                Debug.Log("Aやで");
+            }
         }
 
         // 下限・上限周波数
         textMin.text = string.Format("{0} Hz", estimator.frequencyMin);
         textMax.text = string.Format("{0} Hz", estimator.frequencyMax);
+
+        
+
     }
 
     // 周波数 → 音名
@@ -72,6 +86,8 @@ public class PitchVisualizer : MonoBehaviour
             "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"
         };
         return names[noteNumber % 12];
+
+        
     }
 
 }
