@@ -1,0 +1,606 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1686662002722975, "dur": 1050376, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686662002723212, "dur": 9167, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686662002732382, "dur": 32324, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686662002764708, "dur": 714465, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686662003479175, "dur": 279750, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686662003758927, "dur": 14423, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686662003773772, "dur": 17, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1686662003118956, "dur": 341118, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686662003119805, "dur": 39825, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686662003446827, "dur": 4016, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686662003450847, "dur": 9222, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686662003451443, "dur": 8167, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686662003464286, "dur": 1112, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686662003463510, "dur": 1912, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686662003773843, "dur": 149, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1686662003512604, "dur":7608, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003520220, "dur":80, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1686662003520330, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1686662003520349, "dur":381, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1686662003520755, "dur":474, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003521229, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003749971, "dur":167, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750138, "dur":63, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750201, "dur":44, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750245, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750255, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750256, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750261, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750262, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750267, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750267, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750272, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750273, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750277, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750278, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750282, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750283, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750288, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750288, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750292, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750293, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750297, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750298, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750303, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750303, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750308, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750309, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750313, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750313, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750318, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750319, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750323, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750324, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750329, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750339, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003750356, "dur":1016, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1686662003520873, "dur":364, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686662003521237, "dur":2968, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686662003524206, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1686662003524418, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686662003525325, "dur":1837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1686662003527287, "dur":3175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686662003530474, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686662003530730, "dur":923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686662003531702, "dur":29831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686662003561540, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686662003561550, "dur":978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686662003562541, "dur":76961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686662003639505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686662003639513, "dur":2527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686662003642061, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686662003642251, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686662003642261, "dur":1653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686662003643928, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686662003644060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686662003644067, "dur":790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686662003644869, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686662003644940, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686662003644946, "dur":1543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686662003646505, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686662003646586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686662003646596, "dur":3568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686662003650179, "dur":53710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686662003703894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686662003703901, "dur":458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686662003704369, "dur":45613, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686662003520870, "dur":364, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686662003521235, "dur":2962, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686662003524207, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1686662003524208, "dur":260, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686662003524472, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1686662003524476, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686662003525352, "dur":1447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1686662003526801, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1686662003526920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686662003526955, "dur":1060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1686662003528061, "dur":41518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG.exe" }}
+,{ "pid":12345, "tid":2, "ts":1686662003569582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686662003569588, "dur":1064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG.exe" }}
+,{ "pid":12345, "tid":2, "ts":1686662003570666, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686662003570771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686662003570777, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686662003571777, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686662003571913, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686662003571920, "dur":591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686662003572524, "dur":61213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686662003633747, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686662003633781, "dur":878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686662003634673, "dur":951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686662003635628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686662003635638, "dur":685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686662003636338, "dur":113015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686662003749359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686662003749367, "dur":569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686662003749945, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1686662003749946, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686662003521038, "dur":329, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686662003521367, "dur":2867, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686662003524234, "dur":445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1686662003524682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686662003525249, "dur":1852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1686662003527159, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1686662003527255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686662003527264, "dur":862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1686662003528172, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1686662003528247, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686662003528367, "dur":5968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1686662003534381, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686662003534492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686662003534635, "dur":547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686662003535195, "dur":34241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686662003569440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686662003569448, "dur":511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686662003569974, "dur":28525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686662003598596, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686662003598609, "dur":1765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686662003600390, "dur":26824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686662003627221, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686662003627235, "dur":735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686662003627984, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686662003628116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686662003628124, "dur":548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686662003628684, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686662003628851, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686662003628860, "dur":1947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686662003630828, "dur":29785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686662003660616, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686662003660631, "dur":16332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686662003676982, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1686662003677077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686662003677084, "dur":6412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1686662003683507, "dur":66460, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686662003520944, "dur":354, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686662003521298, "dur":2903, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686662003524208, "dur":49249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1686662003573461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686662003573619, "dur":529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1686662003574193, "dur":1407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686662003575605, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686662003575616, "dur":886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686662003576515, "dur":30554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686662003607076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686662003607083, "dur":1200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686662003608296, "dur":35931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686662003644231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686662003644237, "dur":2999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686662003647251, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686662003647469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686662003647478, "dur":1226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686662003648721, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686662003648800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686662003648808, "dur":2103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686662003650928, "dur":70665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686662003721601, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686662003721613, "dur":581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686662003722204, "dur":27764, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686662003520926, "dur":319, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686662003521246, "dur":2956, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686662003524208, "dur":455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1686662003524665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686662003525453, "dur":2018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1686662003527542, "dur":4849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1686662003532395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686662003532403, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1686662003533893, "dur":48536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686662003582434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686662003582445, "dur":937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686662003583394, "dur":24945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686662003608342, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686662003608351, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686662003609356, "dur":39691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686662003649052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686662003649060, "dur":2321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686662003651400, "dur":74236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686662003725639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686662003725646, "dur":489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686662003726144, "dur":23831, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686662003520961, "dur":368, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686662003521330, "dur":2880, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686662003524210, "dur":359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1686662003524572, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686662003531203, "dur":1241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1686662003532510, "dur":47687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686662003580203, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686662003580214, "dur":1141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686662003581371, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686662003581486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686662003581494, "dur":1065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686662003582572, "dur":29558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686662003612135, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686662003612145, "dur":4425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686662003616583, "dur":33245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686662003649872, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686662003649883, "dur":1692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686662003651588, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686662003651806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686662003651813, "dur":895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686662003652721, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686662003652865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686662003652921, "dur":497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686662003653429, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686662003653513, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686662003653519, "dur":757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686662003654288, "dur":684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686662003654991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686662003654999, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686662003656240, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686662003656362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686662003656368, "dur":2700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686662003659084, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686662003659186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686662003659194, "dur":3759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686662003662966, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686662003663087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686662003663094, "dur":14016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686662003677124, "dur":848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1686662003677976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686662003677983, "dur":1703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1686662003679700, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1686662003679717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686662003679726, "dur":1159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1686662003680899, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1686662003680913, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686662003680921, "dur":6346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1686662003687278, "dur":62693, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686662003520983, "dur":380, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686662003521363, "dur":2844, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686662003524207, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1686662003524328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686662003525509, "dur":1863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1686662003527465, "dur":115332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686662003642800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686662003642806, "dur":17723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686662003660621, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686662003660796, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686662003660802, "dur":2156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686662003663114, "dur":24208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686662003687325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686662003687716, "dur":557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686662003688286, "dur":61698, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686662003521056, "dur":344, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686662003521400, "dur":2805, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686662003524207, "dur":9899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1686662003534109, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686662003534151, "dur":1804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1686662003536007, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003536165, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686662003536187, "dur":847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003537046, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003537145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686662003537153, "dur":503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003537671, "dur":24690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003562370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686662003562379, "dur":1196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003563599, "dur":26917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003590521, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686662003590532, "dur":1222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003591767, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003591927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686662003591936, "dur":532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003592479, "dur":46636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003639119, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686662003639129, "dur":502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003639647, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003639739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686662003639746, "dur":423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003640179, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003640439, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686662003640445, "dur":1669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003642132, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003642341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686662003642349, "dur":689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003643053, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003643135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686662003643142, "dur":573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003643728, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003643810, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686662003643816, "dur":855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003644683, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003644756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686662003644762, "dur":1437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003646214, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003646457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686662003646473, "dur":2372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003648857, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003649034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686662003649040, "dur":2352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003651410, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003651510, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686662003651520, "dur":685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003652222, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003652328, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686662003652334, "dur":716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003653062, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UniRx.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003653416, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686662003653422, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UniRx.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003654421, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003654497, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686662003654504, "dur":741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003655257, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003655410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686662003655417, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003656484, "dur":2260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003658748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686662003658756, "dur":4181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003662950, "dur":3260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003666217, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686662003666227, "dur":15058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686662003681297, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1686662003681327, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686662003681333, "dur":4894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1686662003686237, "dur":63735, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686662003521100, "dur":304, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686662003521404, "dur":2807, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686662003524211, "dur":10360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1686662003534575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686662003534621, "dur":2388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1686662003537233, "dur":48995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686662003586234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686662003586244, "dur":575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686662003586831, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686662003586967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686662003586975, "dur":443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686662003587431, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686662003587595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686662003587603, "dur":1241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686662003589607, "dur":26782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686662003616396, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686662003616406, "dur":722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686662003617139, "dur":35223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686662003652365, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686662003652371, "dur":1839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686662003654222, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686662003654495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686662003654503, "dur":1294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686662003655809, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686662003655895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686662003655901, "dur":2622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686662003658538, "dur":1674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686662003660217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686662003660226, "dur":2315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686662003662554, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686662003662747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686662003662756, "dur":14579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686662003677345, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1686662003677379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686662003677386, "dur":5962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1686662003683361, "dur":66606, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686662003521119, "dur":290, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686662003521409, "dur":2799, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686662003524208, "dur":10639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1686662003534850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686662003535303, "dur":872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1686662003536215, "dur":33895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686662003570113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686662003570120, "dur":3147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686662003573282, "dur":70403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686662003643689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686662003643697, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686662003644867, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686662003644991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686662003644999, "dur":2957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686662003647970, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686662003648057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686662003648065, "dur":1843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686662003649923, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686662003650243, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686662003650249, "dur":1196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686662003651456, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686662003651602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686662003651610, "dur":804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686662003652426, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686662003652526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686662003652532, "dur":645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686662003653187, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686662003653345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686662003653354, "dur":778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686662003654156, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686662003654373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686662003654381, "dur":812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686662003655205, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686662003655398, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686662003655404, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686662003656416, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686662003656833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686662003656839, "dur":3746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686662003660598, "dur":1278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686662003661880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686662003661888, "dur":14825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686662003676730, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1686662003676745, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686662003676754, "dur":6720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1686662003683486, "dur":66495, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686662003521217, "dur":198, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686662003521416, "dur":2801, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686662003524217, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1686662003524390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686662003525405, "dur":1851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1686662003527299, "dur":15746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686662003543052, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686662003543151, "dur":4047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686662003547256, "dur":76293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686662003623556, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686662003623566, "dur":739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686662003624319, "dur":36213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686662003660536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686662003660544, "dur":9820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686662003670380, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":11, "ts":1686662003670479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686662003672849, "dur":899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":11, "ts":1686662003673762, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1686662003673776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686662003673795, "dur":716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1686662003674523, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1686662003674538, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686662003674545, "dur":6476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1686662003681036, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1686662003681051, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686662003681057, "dur":4999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1686662003686072, "dur":63902, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686662003521170, "dur":242, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686662003521412, "dur":2807, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686662003524219, "dur":8626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1686662003532849, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686662003532909, "dur":1038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1686662003534094, "dur":47296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686662003581418, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686662003581428, "dur":2882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686662003584325, "dur":24265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686662003608593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686662003608601, "dur":821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686662003609437, "dur":42053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686662003651622, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686662003651630, "dur":1737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686662003653381, "dur":3955, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686662003657339, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686662003657346, "dur":4526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686662003661891, "dur":827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686662003662721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686662003662751, "dur":18701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686662003681464, "dur":68506, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686662003521236, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686662003521237, "dur":2997, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686662003524234, "dur":8751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1686662003532987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686662003533002, "dur":1146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1686662003534198, "dur":30838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686662003565042, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686662003565052, "dur":1093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686662003566159, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686662003566248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686662003566257, "dur":1244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686662003567517, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686662003567638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686662003567671, "dur":1921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686662003569605, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686662003569848, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686662003569856, "dur":1072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686662003570945, "dur":708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686662003571657, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686662003571666, "dur":1688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686662003573374, "dur":38124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686662003611504, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686662003611514, "dur":3300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686662003614830, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686662003614934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686662003614945, "dur":2059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686662003617016, "dur":943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686662003617963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686662003617972, "dur":1111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686662003619094, "dur":35840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686662003655037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686662003655044, "dur":912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686662003655968, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686662003656314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686662003656336, "dur":4296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686662003660648, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686662003661008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686662003661018, "dur":1924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686662003662957, "dur":426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686662003663386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686662003663393, "dur":16209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686662003681319, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/boot.config" }}
+,{ "pid":12345, "tid":13, "ts":1686662003681402, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686662003681408, "dur":5575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/boot.config" }}
+,{ "pid":12345, "tid":13, "ts":1686662003686995, "dur":62979, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686662003521328, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686662003521328, "dur":2878, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686662003524207, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1686662003524358, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686662003525336, "dur":1854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1686662003527261, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":14, "ts":1686662003527365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686662003527372, "dur":1259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":14, "ts":1686662003528724, "dur":75290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686662003604021, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686662003604033, "dur":567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686662003604611, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686662003604779, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686662003604786, "dur":584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686662003605383, "dur":30723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686662003636111, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686662003637730, "dur":2655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686662003640397, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686662003640811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686662003640818, "dur":1601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686662003642431, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686662003642730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686662003642737, "dur":651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686662003643399, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686662003643524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686662003643551, "dur":2909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686662003646478, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686662003646564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686662003646571, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686662003648184, "dur":711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686662003648934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686662003648942, "dur":1827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686662003650789, "dur":38947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686662003689742, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686662003689758, "dur":764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686662003690533, "dur":59446, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686662003521287, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686662003521288, "dur":2931, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686662003524219, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1686662003524527, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686662003531150, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1686662003532245, "dur":35813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686662003568062, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686662003568072, "dur":1065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686662003569152, "dur":983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686662003570139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686662003570164, "dur":1475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686662003571652, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686662003571869, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686662003571877, "dur":2238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686662003574135, "dur":27407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686662003601568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686662003601577, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686662003602581, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686662003602789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686662003602797, "dur":2518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686662003605327, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686662003605442, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686662003605450, "dur":742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686662003606202, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686662003606363, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686662003606371, "dur":2219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686662003608601, "dur":72586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686662003681190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686662003681197, "dur":6298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686662003687507, "dur":62472, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686662003521304, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686662003521305, "dur":2899, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686662003524207, "dur":15841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1686662003540054, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686662003540082, "dur":1472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1686662003541601, "dur":27375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686662003568981, "dur":572, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686662003569589, "dur":2212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686662003571812, "dur":29029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686662003600847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686662003600860, "dur":593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686662003601465, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686662003601585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686662003601617, "dur":865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686662003602497, "dur":33630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686662003636131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686662003636138, "dur":1453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686662003637606, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686662003637743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686662003637752, "dur":1089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686662003638855, "dur":48889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686662003687747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686662003687756, "dur":749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/0./01.///OTO-RPG/OTO-RPG_003/OTO-RPG_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686662003688516, "dur":61465, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686662003752048, "dur":1395, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1686662003774041, "dur": 662, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686662003773759, "dur": 962, "ph": "X", "name": "Write chrome-trace events", "args": {} },
