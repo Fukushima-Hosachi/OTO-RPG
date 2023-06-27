@@ -1282,7 +1282,7 @@ TextMesh:
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Color:
     serializedVersion: 2
-    rgba: 4287401100
+    rgba: 4294967295
 --- !u!23 &297976765
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2103,7 +2103,7 @@ TextMesh:
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Color:
     serializedVersion: 2
-    rgba: 4289769648
+    rgba: 4294967295
 --- !u!23 &454448242
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5573,7 +5573,7 @@ TextMesh:
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Color:
     serializedVersion: 2
-    rgba: 4289769648
+    rgba: 4294967295
 --- !u!23 &1574887471
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5670,7 +5670,7 @@ TextMesh:
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Color:
     serializedVersion: 2
-    rgba: 4287401100
+    rgba: 4294967295
 --- !u!23 &1602755289
 MeshRenderer:
   m_ObjectHideFlags: 0
