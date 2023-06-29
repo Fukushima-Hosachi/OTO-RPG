@@ -18,11 +18,14 @@ public class PitchVisualizer : MonoBehaviour
     public string noteName;
 
     private Chara_Controll chara_Controll;
+    private Chord_Gage_Controll chord_Gage_Controll;
 
     void Start()
     {
        //chara_Controll = GetComponent<Chara_Controll>();
        chara_Controll = GameObject.Find("monster").GetComponent<Chara_Controll>();
+       chord_Gage_Controll = GameObject.Find("Chord_Gage").GetComponent<Chord_Gage_Controll>();
+
        Debug.Log("最初の読み込みは行えてるよ");
         // 一定間隔で呼び出す（Updateだと速すぎる）
         InvokeRepeating(nameof(UpdateVisualizer), 0, 1.0f / estimateRate);
@@ -77,7 +80,8 @@ public class PitchVisualizer : MonoBehaviour
             if (noteName == "C")
             {
                //Chara_Controllのメソッド
-               chara_Controll.Onclick();
+               //chara_Controll.Onclick();
+               chord_Gage_Controll.Onclick_C();
             }
                                     
         }
