@@ -80,10 +80,10 @@ public class PitchVisualizer : MonoBehaviour
             if (noteName == "C")
             {
                //Chara_Controllのメソッド
-               //chara_Controll.Onclick();
+               chara_Controll.Onclick();
                chord_Gage_Controll.Onclick_C();
             }
-                                    
+                      
         }
 
         // 下限・上限周波数
