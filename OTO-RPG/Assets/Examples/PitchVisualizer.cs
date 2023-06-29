@@ -67,6 +67,12 @@ public class PitchVisualizer : MonoBehaviour
             //Debug.Log( textFrequency.text );
             
             Debug.Log( "noteName is " + noteName );
+
+            if (noteName == "C")
+            {
+               Onclick_test(); 
+               Debug.Log("Cのボタンを押したよ");
+            }
                                     
         }
 
@@ -103,6 +109,15 @@ public class PitchVisualizer : MonoBehaviour
 
         //return names[noteNumber % 12];
         return noteName;
+    }
+
+    public void Onclick_test()
+    {
+        
+        
+
+        
+        
     }
 
 }
