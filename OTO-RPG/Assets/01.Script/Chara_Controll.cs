@@ -17,17 +17,18 @@ public class Chara_Controll : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         Slider slider = GetComponent<Slider>();
         slider.minValue = 0;
         slider.maxValue = HP;
         slider.value = HP;
-        
+           
     }
 
     // Update is called once per frame
     void Update()
     {
-         
+     
     }
 
     public void Onclick()
