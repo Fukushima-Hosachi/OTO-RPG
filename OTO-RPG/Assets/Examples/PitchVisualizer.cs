@@ -27,8 +27,10 @@ public class PitchVisualizer : MonoBehaviour
        chord_Gage_Controll = GameObject.Find("Chord_Gage").GetComponent<Chord_Gage_Controll>();
 
        Debug.Log("最初の読み込みは行えてるよ");
+
         // 一定間隔で呼び出す（Updateだと速すぎる）
-        InvokeRepeating(nameof(UpdateVisualizer), 0, 1.0f / estimateRate);
+        //デフォは1.0ｆだけどそれだと早いので調整済みでこの数値↓
+        InvokeRepeating(nameof(UpdateVisualizer), 0, 3.0f / estimateRate);
 
     }
 
