@@ -83,7 +83,21 @@ public class PitchVisualizer : MonoBehaviour
             {
                //Chara_Controllのメソッド
                chara_Controll.Onclick();
-               chord_Gage_Controll.Onclick_C();
+               //chord_Gage_Controll.Onclick_C();
+            }
+
+            if (noteName == "E")
+            {
+               //Chara_Controllのメソッド
+               chara_Controll.Onclick();
+               //chord_Gage_Controll.Onclick_E();
+            }
+
+            if (noteName == "G")
+            {
+               //Chara_Controllのメソッド
+               chara_Controll.Onclick();
+               //chord_Gage_Controll.Onclick_C();
             }
                       
         }
