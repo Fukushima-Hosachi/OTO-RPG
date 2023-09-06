@@ -388,6 +388,7 @@
 "Assets/01.Script/Reset_Button.cs"
 "Assets/01.Script/Scene_Change.cs"
 "Assets/01.Script/Slider_Controll.cs"
+"Assets/01.Script/Test/Test01.cs"
 "Assets/AudioPitchEstimator.cs"
 "Assets/Examples/AudioRecorder.cs"
 "Assets/Examples/FIXED_Script/AudioRecorder1.cs"

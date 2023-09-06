@@ -38,7 +38,7 @@ public class Chara_Controll : MonoBehaviour
         int Damage = (Random.Range(MaxDamage,minDamage));
 
         HP = HP - Damage;
-        Debug.Log( "ダメージは" + Damage + "残りHPは" + HP );
+        //Debug.Log( "ダメージは" + Damage + "残りHPは" + HP );
 
         slider.value = HP;
 
