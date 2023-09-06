@@ -26,7 +26,7 @@ public class PitchVisualizer : MonoBehaviour
        chara_Controll = GameObject.Find("monster").GetComponent<Chara_Controll>();
        chord_Gage_Controll = GameObject.Find("Chord_Gage").GetComponent<Chord_Gage_Controll>();
 
-       Debug.Log("最初の読み込みは行えてるよ");
+       //Debug.Log("最初の読み込みは行えてるよ");
 
         // 一定間隔で呼び出す（Updateだと速すぎる）
         //デフォは1.0ｆだけどそれだと早いので調整済みでこの数値↓

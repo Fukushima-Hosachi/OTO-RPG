@@ -2678,6 +2678,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe6be900366a9e84cbdd9ae62309855c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Test_C: {fileID: 555822488}
 --- !u!114 &555822488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2730,6 +2731,30 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 555822487}
+        m_TargetAssemblyTypeName: Test01, Assembly-CSharp
+        m_MethodName: ChangeButtonColor
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 555822488}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 555822487}
+        m_TargetAssemblyTypeName: Test01, Assembly-CSharp
+        m_MethodName: RestoreButtonColor
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 555822488}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2807,11 +2832,11 @@ RectTransform:
   - {fileID: 6272300710276456198}
   - {fileID: 1282091771}
   m_Father: {fileID: 708628429}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 143.27606, y: 65}
+  m_AnchoredPosition: {x: 143.27608, y: 64.99997}
   m_SizeDelta: {x: 182.35, y: 56.260002}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &567262160
@@ -3207,8 +3232,8 @@ RectTransform:
   m_LocalScale: {x: 0.99953884, y: 0.99953884, z: 0.99953884}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1221916102}
   - {fileID: 567262159}
+  - {fileID: 1221916102}
   m_Father: {fileID: 94143750}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10199,7 +10224,7 @@ RectTransform:
   - {fileID: 250472249}
   - {fileID: 601567651}
   m_Father: {fileID: 708628429}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -10462,7 +10487,7 @@ GameObject:
   - component: {fileID: 1282091775}
   - component: {fileID: 1282091774}
   - component: {fileID: 1282091773}
-  - component: {fileID: 1282091772}
+  - component: {fileID: 1282091776}
   m_Layer: 5
   m_Name: Button_G
   m_TagString: G
@@ -10491,35 +10516,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 78.590004, y: 56.260002}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1282091772
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1282091770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82288fa7368eaea4f9a20e180393051c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  button: {fileID: 0}
-  image: {fileID: 0}
-  C: {fileID: 0}
-  E: {fileID: 0}
-  G: {fileID: 0}
-  D: {fileID: 0}
-  F: {fileID: 0}
-  A: {fileID: 0}
-  B: {fileID: 0}
-  audioSource: {fileID: 0}
-  btnC: {fileID: 0}
-  btnD: {fileID: 0}
-  btnE: {fileID: 0}
-  btnF: {fileID: 0}
-  btnG: {fileID: 0}
-  btnA: {fileID: 0}
-  btnB: {fileID: 0}
 --- !u!114 &1282091773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10564,28 +10560,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1282091772}
-        m_TargetAssemblyTypeName: Chord_Gage_Controll, Assembly-CSharp
-        m_MethodName: Onclick_G
-        m_Mode: 1
+      - m_Target: {fileID: 1282091776}
+        m_TargetAssemblyTypeName: Test01, Assembly-CSharp
+        m_MethodName: CEGButton
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1976768614}
-        m_TargetAssemblyTypeName: Chord_check, Assembly-CSharp
-        m_MethodName: Chord
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: G
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1282091774
@@ -10626,6 +10610,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1282091770}
   m_CullTransparentMesh: 1
+--- !u!114 &1282091776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282091770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe6be900366a9e84cbdd9ae62309855c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Test_C: {fileID: 0}
 --- !u!1 &1354024801
 GameObject:
   m_ObjectHideFlags: 0
@@ -18787,35 +18784,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &6272300710276456194
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6272300710276456199}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82288fa7368eaea4f9a20e180393051c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  button: {fileID: 6272300710276456197}
-  image: {fileID: 6272300710276456196}
-  C: {fileID: 0}
-  E: {fileID: 0}
-  G: {fileID: 0}
-  D: {fileID: 0}
-  F: {fileID: 0}
-  A: {fileID: 0}
-  B: {fileID: 0}
-  audioSource: {fileID: 0}
-  btnC: {fileID: 0}
-  btnD: {fileID: 0}
-  btnE: {fileID: 0}
-  btnF: {fileID: 0}
-  btnG: {fileID: 0}
-  btnA: {fileID: 0}
-  btnB: {fileID: 0}
 --- !u!222 &6272300710276456195
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18897,7 +18865,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6272300710276456196}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6272300710276456200}
+        m_TargetAssemblyTypeName: Test01, Assembly-CSharp
+        m_MethodName: CEGButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!224 &6272300710276456198
 RectTransform:
   m_ObjectHideFlags: 0
@@ -18931,7 +18911,7 @@ GameObject:
   - component: {fileID: 6272300710276456195}
   - component: {fileID: 6272300710276456196}
   - component: {fileID: 6272300710276456197}
-  - component: {fileID: 6272300710276456194}
+  - component: {fileID: 6272300710276456200}
   m_Layer: 5
   m_Name: Button_E
   m_TagString: E
@@ -18939,6 +18919,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &6272300710276456200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6272300710276456199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe6be900366a9e84cbdd9ae62309855c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Test_C: {fileID: 0}
 --- !u!114 &7120109398104650539
 MonoBehaviour:
   m_ObjectHideFlags: 0
