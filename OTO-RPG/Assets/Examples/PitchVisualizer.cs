@@ -77,7 +77,7 @@ public class PitchVisualizer : MonoBehaviour
 
             //Debug.Log( textFrequency.text );
             
-            Debug.Log( "noteName is " + noteName );
+            //Debug.Log( "noteName is " + noteName );
 
             if (noteName == "C")
             {
