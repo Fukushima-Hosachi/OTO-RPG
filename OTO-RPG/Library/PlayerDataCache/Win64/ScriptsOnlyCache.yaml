@@ -1,15 +1,23 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Animation_Controll
+    - Attack_Animation
     - AudioPitchEstimator
     - AudioRecorder
-    - FFT_Analyze
+    - Chara_Controll
+    - Chord_Gage_Controll
+    - Chord_check
     - PitchVisualizer
+    - PlaySound
+    - Reset_Button
+    - Scene_Change
+    - Slider_Controll
+    - Test01
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintingState
@@ -33,6 +41,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -45,6 +54,16 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.VerticalLayoutGroup
   serializedClasses:
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
@@ -60,14 +79,121 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteCharacter
     - TMPro.TMP_SpriteGlyph
     - TMPro.TMP_Style
+    - TMPro.VertexGradient
+    UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
+    - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.RectOffset
     UnityEngine.TextCoreFontEngineModule:
     - UnityEngine.TextCore.FaceInfo
     - UnityEngine.TextCore.Glyph
     - UnityEngine.TextCore.GlyphMetrics
     - UnityEngine.TextCore.GlyphRect
-  methodsToPreserve: []
+    UnityEngine.UI:
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.Slider/SliderEvent
+    - UnityEngine.UI.SpriteState
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: Chara_Controll
+    methodName: Onclick
+  - assembly: Assembly-CSharp
+    fullTypeName: Reset_Button
+    methodName: onClick
+  - assembly: Assembly-CSharp
+    fullTypeName: Attack_Animation
+    methodName: onClick_Animation
+  - assembly: Assembly-CSharp
+    fullTypeName: Chord_Gage_Controll
+    methodName: Onclick_E
+  - assembly: Assembly-CSharp
+    fullTypeName: Chord_check
+    methodName: Chord
+  - assembly: Assembly-CSharp
+    fullTypeName: Chord_Gage_Controll
+    methodName: Onclick_A
+  - assembly: Assembly-CSharp
+    fullTypeName: Chord_check
+    methodName: Chord
+  - assembly: Assembly-CSharp
+    fullTypeName: Chord_Gage_Controll
+    methodName: Onclick_F
+  - assembly: Assembly-CSharp
+    fullTypeName: Chord_check
+    methodName: Chord
+  - assembly: Assembly-CSharp
+    fullTypeName: Test01
+    methodName: CEGButton
+  - assembly: Assembly-CSharp
+    fullTypeName: Chord_Gage_Controll
+    methodName: Onclick_G
+  - assembly: Assembly-CSharp
+    fullTypeName: Chord_check
+    methodName: Chord
+  - assembly: Assembly-CSharp
+    fullTypeName: Chara_Controll
+    methodName: Onclick
+  - assembly: Assembly-CSharp
+    fullTypeName: Reset_Button
+    methodName: onClick
+  - assembly: Assembly-CSharp
+    fullTypeName: Chara_Controll
+    methodName: Onclick
+  - assembly: Assembly-CSharp
+    fullTypeName: Reset_Button
+    methodName: onClick
+  - assembly: Assembly-CSharp
+    fullTypeName: Chord_Gage_Controll
+    methodName: Onclick_G
+  - assembly: Assembly-CSharp
+    fullTypeName: Chord_check
+    methodName: Chord
+  - assembly: Assembly-CSharp
+    fullTypeName: Chord_Gage_Controll
+    methodName: Onclick_E
+  - assembly: Assembly-CSharp
+    fullTypeName: Chord_check
+    methodName: Chord
+  - assembly: Assembly-CSharp
+    fullTypeName: Test01
+    methodName: CEGButton
+  - assembly: Assembly-CSharp
+    fullTypeName: Chord_Gage_Controll
+    methodName: Onclick_B
+  - assembly: Assembly-CSharp
+    fullTypeName: Chord_check
+    methodName: Chord
+  - assembly: Assembly-CSharp
+    fullTypeName: Chara_Controll
+    methodName: Onclick
+  - assembly: Assembly-CSharp
+    fullTypeName: Reset_Button
+    methodName: onClick
+  - assembly: Assembly-CSharp
+    fullTypeName: Attack_Animation
+    methodName: onClick_Animation
+  - assembly: Assembly-CSharp
+    fullTypeName: Chord_Gage_Controll
+    methodName: Onclick_C
+  - assembly: Assembly-CSharp
+    fullTypeName: Chord_check
+    methodName: Chord
+  - assembly: Assembly-CSharp
+    fullTypeName: Chord_Gage_Controll
+    methodName: Onclick_D
+  - assembly: Assembly-CSharp
+    fullTypeName: Chord_check
+    methodName: Chord
+  - assembly: Assembly-CSharp
+    fullTypeName: Test01
+    methodName: CEGButton
   sceneClasses:
-    Assets/Scenes/SoundTest.unity:
+    Assets/Scenes/Buttle.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -82,34 +208,64 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 49
+    - Class: 74
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 102
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2102}
+      Script: {instanceID: 1568}
     - Class: 114
-      Script: {instanceID: 2388}
+      Script: {instanceID: 1596}
     - Class: 114
-      Script: {instanceID: 3952}
+      Script: {instanceID: 2940}
     - Class: 114
-      Script: {instanceID: 4816}
+      Script: {instanceID: 3208}
     - Class: 114
-      Script: {instanceID: 4962}
+      Script: {instanceID: 3584}
     - Class: 114
-      Script: {instanceID: 5328}
+      Script: {instanceID: 3858}
     - Class: 114
-      Script: {instanceID: 5356}
+      Script: {instanceID: 3954}
     - Class: 114
-      Script: {instanceID: 6324}
+      Script: {instanceID: 4146}
     - Class: 114
-      Script: {instanceID: 9912}
+      Script: {instanceID: 4894}
+    - Class: 114
+      Script: {instanceID: 5360}
+    - Class: 114
+      Script: {instanceID: 5860}
+    - Class: 114
+      Script: {instanceID: 6212}
+    - Class: 114
+      Script: {instanceID: 6224}
+    - Class: 114
+      Script: {instanceID: 6328}
+    - Class: 114
+      Script: {instanceID: 6546}
+    - Class: 114
+      Script: {instanceID: 7112}
+    - Class: 114
+      Script: {instanceID: 7316}
+    - Class: 114
+      Script: {instanceID: 7760}
+    - Class: 114
+      Script: {instanceID: 8532}
+    - Class: 114
+      Script: {instanceID: 9918}
+    - Class: 114
+      Script: {instanceID: 10118}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -124,11 +280,92 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 199
       Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     - Class: 241
       Script: {instanceID: 0}
     - Class: 243
       Script: {instanceID: 0}
     - Class: 245
+      Script: {instanceID: 0}
+    Assets/Scenes/Title.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1568}
+    - Class: 114
+      Script: {instanceID: 2306}
+    - Class: 114
+      Script: {instanceID: 2390}
+    - Class: 114
+      Script: {instanceID: 2940}
+    - Class: 114
+      Script: {instanceID: 3208}
+    - Class: 114
+      Script: {instanceID: 4820}
+    - Class: 114
+      Script: {instanceID: 4966}
+    - Class: 114
+      Script: {instanceID: 5332}
+    - Class: 114
+      Script: {instanceID: 6328}
+    - Class: 114
+      Script: {instanceID: 7112}
+    - Class: 114
+      Script: {instanceID: 7316}
+    - Class: 114
+      Script: {instanceID: 7760}
+    - Class: 114
+      Script: {instanceID: 8342}
+    - Class: 114
+      Script: {instanceID: 9262}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -245,6 +482,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnTriggerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 073d5908a06c1d354aea8652dabdc4b4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PitchVisualizer1
   - hash:
       serializedVersion: 2
       Hash: 800c50acba124432abb4cf0d47202e06
@@ -563,6 +806,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSelectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 953708a3c482ca6604bb3f0138a720d0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AudioRecorder1
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1019,6 +1268,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnBecameInvisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ff903e65b7ba6c34d58c74da50a5a99e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Test01
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1567,5 +1822,6 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   platform: 19
   scenePathNames:
-  - Assets/Scenes/SoundTest.unity
-  playerPath: "D:/0.\u30BC\u30DF/01.\u5352\u7814/\u30AA\u30EA\u30B8\u30CA\u30EB\u30B2\u30FC\u30E0/\u97F3\u3068\u8272\u306E\u3084\u3064/OTO-RPG/OTO-RPG_003/OTO-RPG.exe"
+  - Assets/Scenes/Title.unity
+  - Assets/Scenes/Buttle.unity
+  playerPath: "D:/0.\u30BC\u30DF/01.\u5352\u7814/\u30AA\u30EA\u30B8\u30CA\u30EB\u30B2\u30FC\u30E0/\u97F3\u3068\u8272\u306E\u3084\u3064/00_\u30D3\u30EB\u30C9\u307E\u3068\u3081/OTO-RPG_006/OTO-RPG.exe"

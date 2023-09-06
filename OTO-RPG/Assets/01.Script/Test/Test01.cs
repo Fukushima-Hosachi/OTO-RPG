@@ -35,28 +35,27 @@ public class Test01 : MonoBehaviour
         if (C == true && E == true && G == true)
         {
             Debug.Log("CEGがTrueです");
-            image = GetComponentInChildren<Image>();
-            image.color = new Color( 0, 0, 0 ); 
+            
         }
 
         if (noteName == "C")
             {
                Test_C.onClick.Invoke();
-               StartCoroutine(ResetColorAfterDelay(Test_C, 2.0f));
+              
                
             }
 
         if (noteName == "E")
             {
                Test_E.onClick.Invoke();
-               StartCoroutine(ResetColorAfterDelay(Test_E, 2.0f));
+               
                
             }
         
         if (noteName == "G")
             {
                Test_G.onClick.Invoke();
-               StartCoroutine(ResetColorAfterDelay(Test_G, 2.0f));
+             
                
             }
 
@@ -97,20 +96,6 @@ public class Test01 : MonoBehaviour
 
                     break;
         }
-
-
-        
-    }
-
-    IEnumerator ResetColorAfterDelay(Button button, float delay)
-    {
-        yield return new WaitForSeconds(delay);
-
-        ColorBlock colors = button.colors;
-        colors.normalColor = Color.white; // 元の色に戻す色を設定
-        colors.highlightedColor = Color.white; // ハイライト時の色も設定
-        button.colors = colors;
-
-        Debug.Log(button.name + "のボタン、色を元に戻しました。");
+       
     }
 }
