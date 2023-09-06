@@ -2682,6 +2682,7 @@ MonoBehaviour:
   Test_E: {fileID: 0}
   Test_G: {fileID: 0}
   image: {fileID: 0}
+  pitchVisualizer: {fileID: 1530469936}
 --- !u!114 &555822488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2815,7 +2816,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 143.27608, y: 64.99997}
+  m_AnchoredPosition: {x: 143.27606, y: -33.21539}
   m_SizeDelta: {x: 182.35, y: 56.260002}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &567262160
@@ -10605,6 +10606,7 @@ MonoBehaviour:
   Test_E: {fileID: 0}
   Test_G: {fileID: 1282091773}
   image: {fileID: 0}
+  pitchVisualizer: {fileID: 1530469936}
 --- !u!1 &1354024801
 GameObject:
   m_ObjectHideFlags: 0
@@ -18917,6 +18919,7 @@ MonoBehaviour:
   Test_E: {fileID: 6272300710276456197}
   Test_G: {fileID: 0}
   image: {fileID: 0}
+  pitchVisualizer: {fileID: 1530469936}
 --- !u!114 &7120109398104650539
 MonoBehaviour:
   m_ObjectHideFlags: 0

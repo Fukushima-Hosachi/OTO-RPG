@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Microsoft.Unity.VisualStudio.Editor;
 using UnityEngine;
+
 
 public class PitchVisualizer : MonoBehaviour
 {
@@ -19,6 +21,7 @@ public class PitchVisualizer : MonoBehaviour
 
     private Chara_Controll chara_Controll;
     private Chord_Gage_Controll chord_Gage_Controll;
+
 
     void Start()
     {
@@ -84,6 +87,7 @@ public class PitchVisualizer : MonoBehaviour
                //Chara_Controllのメソッド
                chara_Controll.Onclick();
                //chord_Gage_Controll.Onclick_C();
+               
             }
 
             if (noteName == "E")

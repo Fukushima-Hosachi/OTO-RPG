@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Title.unity
     guid: c9f63ee2c0ef0824c8dd22f55307e634
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Buttle.unity
     guid: 0086caa556ce45b41b3ea37b6fe53aa3
   - enabled: 0
@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SubScene.unity
     guid: 77d3415770605204fbc97e7201e98897
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SoundTest.unity
     guid: 006b9dd3ac575cb4890d7a00874dc1af
   m_configObjects: {}
