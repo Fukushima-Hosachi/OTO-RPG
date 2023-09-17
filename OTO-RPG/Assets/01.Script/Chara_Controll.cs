@@ -13,6 +13,7 @@ public class Chara_Controll : MonoBehaviour
     public int HP_Now;
     
     public Slider slider;	
+    public Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -33,7 +34,8 @@ public class Chara_Controll : MonoBehaviour
 
     public void Onclick()
     {
-        
+        //Attack_Effect();
+        animator.SetTrigger("is_Attacked");
         //ボタンが押されたらキャラクターのHPが減る
         int Damage = (Random.Range(MaxDamage,minDamage));
 
@@ -50,6 +52,12 @@ public class Chara_Controll : MonoBehaviour
 
         
         
+    }
+
+    public void Attack_Effect()
+    {
+        animator.SetTrigger("is_Attacked");
+
     }
     
 }
