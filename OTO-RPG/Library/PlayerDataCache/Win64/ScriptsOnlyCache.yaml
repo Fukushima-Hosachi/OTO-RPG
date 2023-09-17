@@ -18,6 +18,7 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintingState
@@ -33,6 +34,9 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.GroupBrush
     - UnityEditor.Tilemaps.LineBrush
     - UnityEditor.Tilemaps.RandomBrush
+    Unity.Recorder.Editor.dll:
+    - UnityEditor.Recorder.ImageRecorderEditor
+    - UnityEditor.Recorder.ImageRecorderSettings
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -225,47 +229,47 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1568}
+      Script: {instanceID: 1588}
     - Class: 114
-      Script: {instanceID: 1596}
+      Script: {instanceID: 1616}
     - Class: 114
-      Script: {instanceID: 2940}
+      Script: {instanceID: 2994}
     - Class: 114
-      Script: {instanceID: 3208}
+      Script: {instanceID: 3266}
     - Class: 114
-      Script: {instanceID: 3584}
+      Script: {instanceID: 3650}
     - Class: 114
-      Script: {instanceID: 3858}
+      Script: {instanceID: 3928}
     - Class: 114
-      Script: {instanceID: 3954}
+      Script: {instanceID: 4024}
     - Class: 114
-      Script: {instanceID: 4146}
+      Script: {instanceID: 4224}
     - Class: 114
-      Script: {instanceID: 4894}
+      Script: {instanceID: 4992}
     - Class: 114
-      Script: {instanceID: 5360}
+      Script: {instanceID: 5478}
     - Class: 114
-      Script: {instanceID: 5860}
+      Script: {instanceID: 6012}
     - Class: 114
-      Script: {instanceID: 6212}
+      Script: {instanceID: 6350}
     - Class: 114
-      Script: {instanceID: 6224}
+      Script: {instanceID: 6362}
     - Class: 114
-      Script: {instanceID: 6328}
+      Script: {instanceID: 6468}
     - Class: 114
-      Script: {instanceID: 6546}
+      Script: {instanceID: 6692}
     - Class: 114
-      Script: {instanceID: 7112}
+      Script: {instanceID: 7274}
     - Class: 114
-      Script: {instanceID: 7316}
+      Script: {instanceID: 7484}
     - Class: 114
-      Script: {instanceID: 7760}
+      Script: {instanceID: 7952}
     - Class: 114
-      Script: {instanceID: 8532}
+      Script: {instanceID: 8750}
     - Class: 114
-      Script: {instanceID: 9918}
+      Script: {instanceID: 10188}
     - Class: 114
-      Script: {instanceID: 10118}
+      Script: {instanceID: 10402}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -322,33 +326,33 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1568}
+      Script: {instanceID: 1588}
     - Class: 114
-      Script: {instanceID: 2306}
+      Script: {instanceID: 2344}
     - Class: 114
-      Script: {instanceID: 2390}
+      Script: {instanceID: 2428}
     - Class: 114
-      Script: {instanceID: 2940}
+      Script: {instanceID: 2994}
     - Class: 114
-      Script: {instanceID: 3208}
+      Script: {instanceID: 3266}
     - Class: 114
-      Script: {instanceID: 4820}
+      Script: {instanceID: 4916}
     - Class: 114
-      Script: {instanceID: 4966}
+      Script: {instanceID: 5066}
     - Class: 114
-      Script: {instanceID: 5332}
+      Script: {instanceID: 5448}
     - Class: 114
-      Script: {instanceID: 6328}
+      Script: {instanceID: 6468}
     - Class: 114
-      Script: {instanceID: 7112}
+      Script: {instanceID: 7274}
     - Class: 114
-      Script: {instanceID: 7316}
+      Script: {instanceID: 7484}
     - Class: 114
-      Script: {instanceID: 7760}
+      Script: {instanceID: 7952}
     - Class: 114
-      Script: {instanceID: 8342}
+      Script: {instanceID: 8558}
     - Class: 114
-      Script: {instanceID: 9262}
+      Script: {instanceID: 9506}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -686,6 +690,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 49101319b21043357cb80c5aba043e1d
+    assemblyName: Unity.Recorder.dll
+    namespaceName: UnityEngine.Recorder
+    className: RecorderBindings
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1150,16 +1160,16 @@ ScriptsOnlyBuild:
     className: MacroScriptableObject
   - hash:
       serializedVersion: 2
-      Hash: 0ca81959fb85707d5b1705a7b9b60e72
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Attack_Animation
-  - hash:
-      serializedVersion: 2
       Hash: 7ab0e790220bdca831fdd886b339039d
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 0ca81959fb85707d5b1705a7b9b60e72
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Attack_Animation
   - hash:
       serializedVersion: 2
       Hash: 23d3a7934487ae00713c7a7cf322b856
@@ -1516,7 +1526,7 @@ ScriptsOnlyBuild:
     className: Physics2DRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 6f3cd458dcb3f179b8b736c7779dae9d
+      Hash: 6b3d1e74fe87404f56d14e3a7b96b0de
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Chara_Controll
@@ -1824,4 +1834,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Title.unity
   - Assets/Scenes/Buttle.unity
-  playerPath: "D:/0.\u30BC\u30DF/01.\u5352\u7814/\u30AA\u30EA\u30B8\u30CA\u30EB\u30B2\u30FC\u30E0/\u97F3\u3068\u8272\u306E\u3084\u3064/00_\u30D3\u30EB\u30C9\u307E\u3068\u3081/OTO-RPG_006/OTO-RPG.exe"
+  playerPath: "D:/0.\u30BC\u30DF/01.\u5352\u7814/\u30AA\u30EA\u30B8\u30CA\u30EB\u30B2\u30FC\u30E0/\u97F3\u3068\u8272\u306E\u3084\u3064/00_\u30D3\u30EB\u30C9\u307E\u3068\u3081/OTO-RPG_007/OTO-RPG.exe"

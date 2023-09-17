@@ -314,6 +314,8 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Burst.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.InternalAPIEngineBridge.001.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Mathematics.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Recorder.Base.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Recorder.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Services.Core.Analytics.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Services.Core.Environments.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Services.Core.ref.dll"
