@@ -33,7 +33,7 @@ public class PitchVisualizer : MonoBehaviour
 
         // 一定間隔で呼び出す（Updateだと速すぎる）
         //デフォは1.0ｆだけどそれだと早いので調整済みでこの数値↓
-        InvokeRepeating(nameof(UpdateVisualizer), 0, 3.0f / estimateRate);
+        InvokeRepeating(nameof(UpdateVisualizer), 0, 1.0f / estimateRate);
 
     }
 
